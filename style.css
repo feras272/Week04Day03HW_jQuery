@@ -3,3 +3,12 @@
     background-color: antiquewhite;
     font-size: large;
 }
+
+#loginDiv {
+    background-color: darkgrey;
+    border-radius: 12px;
+    padding: 20px;
+    border: solid brown 3px;
+    margin: 15px;
+}
+
