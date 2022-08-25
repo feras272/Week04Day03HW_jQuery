@@ -12,3 +12,21 @@
     margin: 15px;
 }
 
+#loginPar{
+    background-color: beige;
+    border-radius: 12px;
+    padding: 10px;
+    color: brown;
+}
+
+#username {
+    border-radius: 8px;
+}
+
+#password {
+    border-radius: 8px;
+}
+
+#login {
+    border-radius: 8px;
+}
