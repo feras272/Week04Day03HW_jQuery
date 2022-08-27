@@ -2,6 +2,10 @@
     color:rebeccapurple;
     background-color: antiquewhite;
     font-size: large;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 15px;
+    border: solid purple 3px;
 }
 
 #loginDiv {
