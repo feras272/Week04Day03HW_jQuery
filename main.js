@@ -10,8 +10,21 @@ $(document).ready(function () {
     const par_login = $('#loginPar');
 
     function verify() {
-        $('#loginPa').css("background-color");
+        const currentUsername = username.val();
+        const currentUserpass = userpass.val();
+        for(let i = 0; i < users.length; i++) {
+            if(currentUsername === users[i].user && currentUserpass === users[i].password) {
+                par_login.css("background-color","lightgreen");
+                par_login.css("color", "green");
+                par_login.text('Login Success');
+                return;
+            }
+        }
+    
+        
         
     }
+
+    btn_login.click(verify)
 
 })
