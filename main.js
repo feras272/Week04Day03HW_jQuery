@@ -21,7 +21,10 @@ $(document).ready(function () {
             }
         }
     
-        
+        par_login.css("background-color","#ffcccd");
+        par_login.css("color", "red");
+        par_login.text('Login Failed');
+        return;
         
     }
 
